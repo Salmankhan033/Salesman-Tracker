@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".AddProductActivity">
+
+        <ImageView
+            android:id="@+id/f1"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_130sdp"
+            android:background="@drawable/curve" >
+
+
+        </ImageView>
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginRight="@dimen/_35sdp"
+            android:text="Product Details"
+            android:background="@drawable/round_corner_transp_yellow"
+            android:shadowRadius="2"
+            android:shadowDy="3"
+            android:shadowDx="3"
+            android:shadowColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/_22sdp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/f1"
+            android:orientation="vertical"
+            android:padding="@dimen/marginplus6">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginplus4"
+                android:paddingLeft="@dimen/_3sdp"
+                android:text="@string/product_name"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/et_name_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:fontFamily="@font/poppins_light"
+                android:inputType="text"
+                android:maxLength="50"
+                android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginplus4"
+                android:paddingLeft="@dimen/_3sdp"
+                android:text="@string/product_price"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/et_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:fontFamily="@font/poppins_light"
+                android:inputType="number"
+                android:maxLength="5"
+                android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                tools:ignore="LabelFor" />
+
+            <Button
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_35sdp"
+                android:background="@drawable/seleter2"
+                android:onClick="add_product"
+                android:padding="@dimen/marginplus2"
+                android:text="@string/add_product"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/_16sdp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

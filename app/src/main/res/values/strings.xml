@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">Salesman Tracker</string>
+
+    <string name="mapapikey">AIzaSyDzIyI2Sv92NnRkrf6cXtGPti6aycTw6sI</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_salesman">Salesman</string>
+    <string name="title_activity_SalesmanRegistration">Salesman Registration</string>
+    <string name="menu_customer">Customer</string>
+    <string name="menu_order">Order</string>
+    <string name="menu_product">Products</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="menu_logout">Log Out</string>
+    <string name="action_logout">Log Out</string>
+    <string name="view">View</string>
+    <string name="sign_up">Sign-up</string>
+    <string name="name">name : </string>
+    <string name="new_user">NEW USER</string>
+    <string name="tap_on_camera_to_add_img">tap on camera icon</string>
+    <string name="company_name">Company Name</string>
+    <string name="company_address">Company Address</string>
+    <string name="user_name">User Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="new_password">New Password</string>
+    <string name="submit">S u b m i t</string>
+    <string name="salesman_details">Salesman Details</string>
+    <string name="email">Email  </string>
+    <string name="nashik">Nashik</string>
+    <string name="mobile">Mobile  </string>
+    <string name="_1452369856">1452369856</string>
+    <string name="salesman_id">Salesman ID  </string>
+    <string name="c_programming">C Programming</string>
+    <string name="_450">450</string>
+    <string name="pratik_pawar">Pratik Pawar</string>
+    <string name="salesman_tracking_app">SALESMAN TRACKING APP</string>
+    <string name="delete">DELETE</string>
+    <string name="enter_order_id_to_delete">enter order Id to delete</string>
+    <string name="Customer_mobile">mobile</string>
+    <string name="address">Address :</string>
+    <string name="no_data">No data found…</string>
+    <string name="product_name">Product Name : </string>
+    <string name="price">Price : </string>
+    <string name="submit_product">Submit</string>
+    <string name="title_activity_CustomerRegistrationActivity">Add Customer</string>
+    <string name="title_activity_AddOrderActivity">Add Order</string>
+    <string name="title_activity_AddProductActivity">Add Product</string>
+    <string name="click_on_button">Click on \'+\' button</string>
+    <string name="destination">Destination</string>
+    <string name="order_no">Order no. : </string>
+    <string name="generate_otp">Generate OTP</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="done">Done</string>
+    <string name="order_summary">ORDER SUMMARY</string>
+    <string name="your_order_no">Order no : </string>
+    <string name="_4343">#4343</string>
+    <string name="time">Time : </string>
+    <string name="location">location</string>
+    <string name="salesman_name">Salesman Name</string>
+    <string name="customer_name">customer name : </string>
+    <string name="customer_mob">customer mob. </string>
+    <string name="_01"> * 01</string>
+    <string name="dollar"> $ </string>
+    <string name="price_">PRICE</string>
+    <string name="add_order">Add Order</string>
+    <string name="add_customer">Add Customer</string>
+    <string name="add_salesman">Add Salesman</string>
+    <string name="add_product">Add Product</string>
+    <string name="select_customer">Select Customer :</string>
+    <string name="mobile_no">Mobile No. : </string>
+    <string name="address_">Address : </string>
+    <string name="select_product">Select Product : </string>
+    <string name="assign_order_to">Assign Order to : </string>
+    <string name="time__">time</string>
+    <string name="enter_name"><![CDATA[ Salesman Name  ]]></string>
+    <string name="enter_mobile"> Mobile : </string>
+    <string name="enter_email"> Email : </string>
+    <string name="enter_password"> Enter Password : </string>
+    <string name="password"> Password </string>
+    <string name="task_list">Task List</string>
+    <string name="other">Other</string>
+    <string name="customer_name_">Customer Name : </string>
+    <string name="optional">optional</string>
+    <string name="_2453153425">2453153425</string>
+    <string name="gk_nagar_nandgaon">gk nagar nandgaon</string>
+    <string name="_5000">$5000</string>
+    <string name="hi">Hi !</string>
+    <string name="don_t_have_account">Don\'t have account ?</string>
+    <string name="l_o_g_i_n">L o g i n</string>
+    <string name="password___">Password</string>
+    <string name="salesman_id_">Salesman Id</string>
+    <string name="salesman">Salesman</string>
+    <string name="distributor">Admin</string>
+    <string name="welcome_to_trackit">Welcome to
+        Salesman Tracking System</string>
+    <string name="trackit_helps_you_to_monitor_your_salesman_and_make_it_easy_to_manage">Trackit helps you to monitor your salesman and make it easy to manage</string>
+    <string name="please_choose_your_role_and_continue">Please choose your role and continue</string>
+    <string name="c_o_n_t_i_n_u_e">C o n t i n u e</string>
+    <string name="todo">TODO</string>
+    <string name="enter_url_to_locate">Enter Url to locate</string>
+    <string name="select_order_id">Select Order ID</string>
+    <string name="customer">Customer</string>
+    <string name="orders">Orders</string>
+    <string name="products">Products</string>
+    <string name="menu_history">OrderHistory</string>
+    <string name="search">Search</string>
+    <string name="new_order">New Order</string>
+    <string name="new_product">Add New Product</string>
+    <string name="new_customer">New Customer</string>
+    <string name="new_salesman">New Salesman</string>
+    <string name="get_otp">GET OTP</string>
+    <string name="please_contact_to_your_distributor">*please contact to your Manager</string>
+    <string name="cnic_no">CNIC NO.</string>
+    <string name="product_namee">Product Name</string>
+    <string name="product_id">Product ID</string>
+    <string name="product_price">Product Price</string>
+    <string name="title_ProductDetailsActivity">Product Detail</string>
+    <string name="title_activity_AddProduct"></string>
+    <string name="app_version">App Version: 1.4</string>
+    <!--    <string name="ustb">33°01'41.9"N 70°42'01.8"E</string>-->
+
+    <string-array name="array_Area">
+        <item>Select--</item>
+        <item>Area-1</item>
+        <item>Area-2</item>
+        <item>Area-3</item>
+        <item>Area-4</item>
+        <item>Area-5</item>
+        <item>Area-6</item>
+    </string-array>
+
+
+</resources>

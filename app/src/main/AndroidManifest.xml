@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smts">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- To request foreground location access, declare one of these permissions. -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Required only when requesting background location access on Android 10 (API level 29). -->
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <application
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/icon8"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/icon8"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight">
+        <activity android:name=".salesman.LoginSalesman"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".OrderHistory.OrderDetailsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OrderHistory.Orders_list_activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/mapapikey" /> <!-- <service -->
+        <!-- android:name=".Service.MyService" -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="true" /> -->
+        <!-- <meta-data -->
+        <!-- android:name="com.google.android.geo.API_KEY" -->
+        <!-- android:value="AIzaSyDkpARJl8uChQdxa1AKlatfMPMR-VZim_A" /> -->
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".salesman.SalesmanDetailsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OrderHistory.SalesmanPlaceOrderActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".product.AddProductActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".product.ProductDetailsActivity"
+            android:label="@string/title_ProductDetailsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".salesman.SalesmanRegistrationActivity"
+            android:label="@string/title_activity_SalesmanRegistration"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".product.Products_List_Activity"
+            android:label="Products"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".salesman.Salesman"
+            android:label="Salesman"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyOrderDetailsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminSignUpActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminLoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserTypeSelection_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".SplashscreenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

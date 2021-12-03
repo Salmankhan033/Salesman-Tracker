@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/trackit_bg"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:id="@+id/s1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/marginplus2"
+        android:text="Place New Order"
+        android:shadowRadius="2"
+        android:shadowDy="3"
+        android:shadowDx="3"
+        android:shadowColor="@color/black"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:background="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_20sdp"
+        />
+
+<ScrollView
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginRight="@dimen/_25sdp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Order ID"
+                android:paddingLeft="@dimen/_3sdp"
+                android:textSize="@dimen/_13sdp" />
+
+            <EditText
+                android:id="@+id/et_order_id"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_38sdp"
+                android:autofillHints=""
+                android:fontFamily="@font/poppins_light"
+                android:inputType="text"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                tools:ignore="LabelFor" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Salesman ID"
+                android:paddingLeft="@dimen/_3sdp"
+                android:layout_marginTop="@dimen/marginplus1"
+                android:textSize="@dimen/_13sdp" />
+
+            <EditText
+                android:id="@+id/et_Salesman_id"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_38sdp"
+                android:autofillHints=""
+                android:fontFamily="@font/poppins_light"
+                android:inputType="text"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:maxLength="13"
+                android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Salesman Name"
+                android:layout_marginTop="@dimen/marginplus1"
+                android:paddingLeft="@dimen/_3sdp"
+                android:textSize="@dimen/_13sdp" />
+
+            <EditText
+                android:id="@+id/et_SalesmanName_id"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_38sdp"
+                android:autofillHints=""
+                android:fontFamily="@font/poppins_light"
+                android:inputType="text"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                tools:ignore="LabelFor" />
+
+         <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Customer ID"
+                android:paddingLeft="@dimen/_3sdp"
+                android:layout_marginTop="@dimen/marginplus1"
+                android:textSize="@dimen/_13sdp" />
+
+            <EditText
+                android:id="@+id/et_Customer_id"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_38sdp"
+                android:autofillHints=""
+                android:maxLength="13"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="text"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Customer Name"
+                android:layout_marginTop="@dimen/marginplus1"
+                android:paddingLeft="@dimen/_3sdp"
+                android:textSize="@dimen/_13sdp" />
+
+            <EditText
+                android:id="@+id/et_CustomerName_id"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_38sdp"
+                android:autofillHints=""
+                android:fontFamily="@font/poppins_light"
+                android:inputType="text"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                tools:ignore="LabelFor" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginplus1"
+                android:text=" Mobile"
+                android:textSize="@dimen/_13sdp" />
+
+            <EditText
+                android:id="@+id/et_mob_id"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_38sdp"
+                android:autofillHints=""
+                android:fontFamily="@font/poppins_light"
+                android:inputType="number"
+                android:maxLength="11"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginplus1"
+                android:text="Product"
+                android:paddingLeft="@dimen/_3sdp"
+                android:textSize="@dimen/_13sdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_37sdp"
+                android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spinner_Product_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/marginplus1"
+                    android:inputType="textMultiLine"
+                    android:theme="@style/MatchSpinnerTheme"
+                    android:textColor="@color/black"
+                    />
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginplus1"
+                android:text="Quantity"
+                android:paddingLeft="@dimen/_3sdp"
+                android:textSize="@dimen/_13sdp" />
+
+            <EditText
+                android:id="@+id/et_Quantity_id"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_38sdp"
+                android:autofillHints=""
+                android:fontFamily="@font/poppins_light"
+                android:inputType="text"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:maxLength="13"
+                android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                tools:ignore="LabelFor" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginplus1"
+                android:text="Working Area"
+                android:paddingLeft="@dimen/_3sdp"
+                android:textSize="@dimen/_13sdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_37sdp"
+                android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spinner_Area_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/marginplus1"
+                    android:inputType="textMultiLine"
+                    android:theme="@style/MatchSpinnerTheme"
+                    android:textColor="@color/black"
+                    />
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_PlaceOrder_id"
+                android:layout_width="@dimen/_180sdp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:background="@drawable/seleter2"
+                android:text="Submit"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/_14sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+        />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
+
+</LinearLayout>

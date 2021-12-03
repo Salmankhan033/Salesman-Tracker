@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Time_Slot">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+
+
+</resources>

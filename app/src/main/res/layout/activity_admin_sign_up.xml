@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AdminSignUpActivity">
+
+    <ProgressBar
+        android:id="@+id/progbar"
+        android:layout_width="@dimen/marginplus16"
+        android:layout_height="@dimen/marginplus16"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/f1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:background="@drawable/curve" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:gravity="center"
+        android:shadowRadius="3"
+        android:shadowDy="2"
+        android:shadowDx="2"
+        android:shadowColor="@color/black"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:text="Admin Registarion"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/heading"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:padding="@dimen/marginplus2"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_pic"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/icon_picture"
+            android:tag="@string/tap_on_camera_to_add_img" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/f1">
+
+        <LinearLayout
+            android:id="@+id/liner"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/marginplus6">
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="@dimen/marginplus1"-->
+<!--                android:fontFamily="@font/poppins_light"-->
+<!--                android:text="@string/company_name"-->
+<!--                android:textSize="15sp" />-->
+
+<!--            <EditText-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:autofillHints=""-->
+<!--                android:background="@drawable/rect_grayoutline1"-->
+<!--                android:fontFamily="@font/poppins_light"-->
+<!--                android:hint="@string/optional"-->
+<!--                android:inputType="text"-->
+<!--                android:padding="@dimen/marginplus2"-->
+<!--                android:textColor="@color/colorPrimaryDark"-->
+<!--                android:textSize="18sp"-->
+<!--                tools:ignore="LabelFor" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="@dimen/marginplus2"-->
+<!--                android:fontFamily="@font/poppins_light"-->
+<!--                android:text="@string/company_address"-->
+<!--                android:textSize="15sp" />-->
+
+<!--            <EditText-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/rect_grayoutline1"-->
+<!--                android:fontFamily="@font/poppins_light"-->
+<!--                android:hint="@string/optional"-->
+<!--                android:importantForAutofill="no"-->
+<!--                android:inputType="text"-->
+<!--                android:padding="@dimen/marginplus2"-->
+<!--                android:textColor="@color/colorPrimaryDark"-->
+<!--                android:textSize="18sp"-->
+<!--                tools:ignore="LabelFor" />-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginplus1"
+                android:text="@string/user_name"
+                android:paddingLeft="@dimen/_3sdp"
+                android:textSize="@dimen/_13sdp"/>
+
+            <EditText
+                android:id="@+id/et_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:padding="@dimen/marginplus2"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginplus1"
+                android:text="@string/email_address"
+                android:paddingLeft="@dimen/_3sdp"
+                android:textSize="@dimen/_13sdp" />
+
+            <EditText
+                android:id="@+id/etemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                android:importantForAutofill="no"
+                android:inputType="textEmailAddress"
+                android:padding="@dimen/marginplus2"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginplus1"
+                android:text="@string/new_password"
+                android:paddingLeft="@dimen/_3sdp"
+                android:textSize="@dimen/_13sdp"/>
+
+            <EditText
+                android:id="@+id/etpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                android:importantForAutofill="no"
+                android:inputType="textPassword"
+                android:padding="@dimen/marginplus2"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginplus1"
+                android:text="@string/confirm_password"
+                android:paddingLeft="@dimen/_3sdp"
+                android:textSize="@dimen/_13sdp" />
+
+            <EditText
+                android:id="@+id/etCpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginplus4"
+                android:autofillHints=""
+                android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                android:inputType="textPassword"
+                android:padding="@dimen/marginplus2"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                tools:ignore="LabelFor" />
+
+
+
+            <Button
+                android:id="@+id/btn_newsubmit"
+                android:layout_width="@dimen/_190sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/seleter2"
+                android:text="Submit"
+                android:textColor="#ffffff"
+                android:shadowRadius="1"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:shadowDy="1"
+                android:shadowDx="1"
+                android:shadowColor="@color/black"
+                android:textSize="@dimen/_14sdp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

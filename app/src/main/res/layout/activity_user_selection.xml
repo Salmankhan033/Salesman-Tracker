@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/trackit_bg"
+    tools:context=".UserTypeSelection_Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_version"
+        android:textSize="@dimen/_9sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/black"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:padding="@dimen/marginplus5"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginplus12"
+        android:fontFamily="@font/poppins_light"
+        android:layout_marginStart="@dimen/marginplus5"
+        android:text="@string/hi"
+        android:textColor="#0A0202"
+        android:visibility="invisible"
+        tools:ignore="RtlSymmetry"
+        android:layout_marginLeft="@dimen/marginplus5" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1"
+        android:fontFamily="@font/poppins_light"
+        android:layout_marginStart="@dimen/marginplus8"
+        android:text="Welcome to\nSalesman Tracking System"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/_17sdp"
+        tools:ignore="RtlSymmetry"
+        android:layout_marginLeft="@dimen/marginplus5" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t2"
+        android:layout_marginStart="@dimen/marginplus8"
+        android:paddingEnd="@dimen/marginplus4"
+        android:text="@string/trackit_helps_you_to_monitor_your_salesman_and_make_it_easy_to_manage"
+        android:textColor="@color/text"
+        android:textSize="@dimen/_11sdp"
+        tools:ignore="RtlSymmetry"
+        android:layout_marginLeft="@dimen/marginplus5"
+        android:paddingRight="@dimen/marginplus4" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/marginplus6"
+        android:layout_marginTop="@dimen/marginplus5"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/please_choose_your_role_and_continue"
+        android:textColor="@color/text"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/marginplus6" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginplus3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/t5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginplus1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_distributor_id"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_38sdp"
+                android:background="@drawable/rect_outlinegrey"
+                android:gravity="center"
+                android:text="@string/distributor"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp"
+                tools:ignore="ButtonStyle,RtlSymmetry" />
+
+            <Button
+                android:id="@+id/btn_salesman_id"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_38sdp"
+                android:layout_marginStart="@dimen/marginplus5"
+                android:background="@drawable/rect_outlinegrey"
+                android:gravity="center"
+                android:text="@string/salesman"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp"
+                tools:ignore="ButtonStyle,RtlSymmetry"
+                android:layout_marginLeft="@dimen/marginplus5" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_continue"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:layout_marginBottom="@dimen/marginplus5"
+            android:background="@drawable/buttonstylepink"
+            android:elevation="@dimen/marginplus2"
+            android:text="@string/c_o_n_t_i_n_u_e"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_16sdp"
+            />
+    </LinearLayout>
+</RelativeLayout>

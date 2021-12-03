@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".salesman.Salesman"
+    tools:showIn="@layout/app_bar_admin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salesman Tracking System"
+        android:textSize="@dimen/_20sdp"
+        android:visibility="gone"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/maven_pro_bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/marginplus3"
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:padding="@dimen/marginplus3">
+
+        <EditText
+            android:id="@+id/et_id"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/rect_grayoutline1"
+            android:hint="@string/enter_order_id_to_delete"
+            android:inputType="number"
+            android:paddingStart="@dimen/marginplus3"
+            tools:ignore="RtlSymmetry"
+            android:paddingLeft="@dimen/marginplus3" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/marginplus2"
+            android:background="@drawable/redbtn"
+            android:text="@string/search"
+            android:textColor="@color/textwhite"
+            android:layout_marginLeft="@dimen/marginplus2" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:text="Salesman List"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:shadowRadius="2"
+        android:shadowDy="3"
+        android:shadowDx="3"
+        android:shadowColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/_22sdp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/round_corner_transp_yellow"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_Salesmanlist"
+        android:layout_below="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-2dp"
+        android:dividerHeight="-1dp" />
+
+    <TextView
+        android:id="@+id/tvDATA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="@string/click_on_button"
+        android:text="@string/no_data"
+        android:textSize="30sp"
+        android:visibility="visible" />
+</RelativeLayout>

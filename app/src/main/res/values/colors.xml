@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#00574B</color>
+    <color name="colorDarkAccent">#E3135A</color>
+    <color name="colorLightAccent2">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBackground">#000000</color>
+    <color name="text">#3b3b3b</color>
+    <color name="textsub">#aaaaaa</color>
+    <color name="col">#5CBFB6</color>
+    <color name="col2">#FFFFFF</color>
+
+    <color name="div">#d5c5a4</color>
+    <color name="textred">#ca362c</color>
+    <color name="textwhite">#fff</color>
+    <color name="bg_item">#F7DCFB</color>
+</resources>

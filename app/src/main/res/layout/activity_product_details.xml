@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".salesman.SalesmanDetailsActivity">
+
+
+
+    <ImageView
+        android:id="@+id/f1"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_130sdp"
+        android:background="@drawable/curve" >
+
+
+    </ImageView>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/_35sdp"
+        android:layout_marginRight="@dimen/_35sdp"
+        android:text="Product Details"
+        android:background="@drawable/round_corner_transp_yellow"
+        android:shadowRadius="2"
+        android:shadowDy="3"
+        android:shadowDx="3"
+        android:shadowColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+    <ScrollView
+        android:layout_below="@id/f1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="match_parent"
+                    android:text="@string/product_namee"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/_14sdp" />
+
+                <EditText
+                    android:id="@+id/et_nameProduct_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                    android:inputType="textMultiLine|text"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginplus2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/product_id"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_14sdp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_Product_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp"  />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginplus2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="match_parent"
+                    android:text="@string/product_price"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_14sdp" />
+
+                <EditText
+                    android:id="@+id/et_price_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp" />
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <Button
+                    android:id="@+id/btn_updateProduct_id"
+                    android:layout_width="@dimen/_180sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginTop="@dimen/_30sdp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/seleter2"
+                    android:text="Update Product"
+                    android:textColor="#ffffff"
+                    android:layout_centerHorizontal="true"
+                    android:shadowRadius="1"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:shadowDy="1"
+                    android:shadowDx="1"
+                    android:shadowColor="@color/black"
+                    android:textSize="@dimen/_14sdp" />
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

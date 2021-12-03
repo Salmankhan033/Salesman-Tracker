@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/trackit_bg"
+    tools:context=".salesman.LoginSalesman">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_distributor_id"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@drawable/rect_bg_btn"
+                android:gravity="center"
+                android:text="Admin"
+                android:textAllCaps="false"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp" />
+            <Button
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:text="Salesman"
+                android:gravity="center"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:background="@drawable/rect_bg_btn"                android:id="@+id/btn_salesman_id"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_usernameCNIC"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:layout_width="@dimen/_220sdp"
+            android:hint="Enter CNIC"
+            android:inputType="numberDecimal"
+            android:maxLength="13"
+            android:textSize="@dimen/_14sdp"
+            android:paddingLeft="@dimen/_10sdp"
+            android:layout_height="@dimen/_40sdp"/>
+        <EditText
+            android:id="@+id/etpassword"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:layout_width="@dimen/_220sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:hint="@string/password___"
+            android:paddingLeft="@dimen/_10sdp"
+            android:inputType="textPassword"
+            android:maxLength="15"
+            android:imeOptions="actionDone"
+            android:textSize="@dimen/_14sdp"
+            android:layout_height="@dimen/_40sdp"/>
+
+
+        <Button
+            android:id="@+id/btn_salesman_login_id"
+            android:layout_width="@dimen/_220sdp"
+            android:layout_height="@dimen/_37sdp"
+            android:layout_below="@+id/etpassword"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/seleter2"
+            android:elevation="@dimen/marginplus2"
+            android:text="@string/l_o_g_i_n"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_14sdp" />
+
+        <TextView
+            android:id="@+id/tv1_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/btn_salesman_login_id"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/don_t_have_account"
+            android:textColor="@color/text"
+            android:textSize="@dimen/_11sdp"
+            />
+
+        <TextView
+            android:layout_below="@+id/tv1_id"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/please_contact_to_your_distributor"
+            android:textColor="@color/text"
+            android:textSize="@dimen/_11sdp"
+            android:layout_marginBottom="@dimen/_40sdp" />
+    </LinearLayout>
+
+</RelativeLayout>

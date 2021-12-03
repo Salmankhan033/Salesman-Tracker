@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".product.Products_List_Activity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_140sdp"
+        android:background="@drawable/curve"
+        >
+        <!--
+
+                <LinearLayout
+                    android:showDividers="end"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="@dimen/marginplus10"
+                    android:padding="@dimen/marginplus3"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/menu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ic_menu"
+                        android:contentDescription="@string/todo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/marginplus1"
+                        android:layout_marginStart="@dimen/marginplus2"
+                        android:fontFamily="@font/poppins_light"
+                        android:text="@string/products"
+                        android:textColor="#ffff"
+                        android:textSize="35sp"
+                        android:textStyle="bold"
+                        tools:ignore="RtlSymmetry" />
+                </LinearLayout>
+        -->
+    </FrameLayout>
+
+    <include
+        layout="@layout/content_order"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/marginplus10"
+        android:layout_marginTop="@dimen/marginplus12" />
+    <!--
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_addProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            app:srcCompat="@drawable/ic_add_new" />-->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

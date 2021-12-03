@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "131664268452",
+    "project_id": "salesman-c28a3",
+    "storage_bucket": "salesman-c28a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131664268452:android:b42a495cc1d004fcb96a31",
+        "android_client_info": {
+          "package_name": "com.example.smts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131664268452-pbkpq0hj882njrgh6aarue7h1q55v6sm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM1kn3Qihoi9E4WpuS6o5ejlN6Iozl3Zw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131664268452-pbkpq0hj882njrgh6aarue7h1q55v6sm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

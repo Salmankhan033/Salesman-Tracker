@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".OrderHistory.Orders_list_activity"
+    tools:showIn="@layout/app_bar_order">
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:text="Orders List"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:shadowRadius="2"
+        android:shadowDy="3"
+        android:shadowDx="3"
+        android:shadowColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/_22sdp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/round_corner_transp_yellow"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_Orderslist"
+        android:layout_below="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-2dp"
+        android:dividerHeight="-1dp" />
+
+    <TextView
+        android:id="@+id/tvDATA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="@string/click_on_button"
+        android:text="@string/no_data"
+        android:textSize="30sp"
+        android:visibility="visible" />
+</RelativeLayout>
