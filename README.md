@@ -1,8 +1,7 @@
-# mySTS2 
+# Salesman Tracker
 
-[![HitCount](http://hits.dwyl.com/prtk5436/SalesmanTrackingApp.svg)](http://hits.dwyl.com/prtk5436/SalesmanTrackingApp)
 
-## **My Diploma Project : _SALESMAN TRACKING APP_**
+## **FYP Project : _SALESMAN TRACKING APP_**
 
 - java files contain backend code of app.
 - xml files contain UI or frontend code of app. 
@@ -18,7 +17,7 @@
 1. Tap on More  and 
 1. then Copy to clipboard. after that share this copied link with ADMIN.
 - Admin with this link can see salesman location for as long as you choose, up to 72 hours.
-- _Watch video here : https://bit.ly/3hNDuaI (How to track salesman?)_
+
 
 ---
 
@@ -29,14 +28,3 @@
 4) User friendly GUI.
 5) Smooth Performance.
 ---
-
-## ****P R E V I E W****
-
-<img src ="Images/welcome.png" width="220" height="400">  <img src ="Images/salesman_login.png" width="220" height="400"> 
-<img src ="Images/nav_menu.png" width="220" height="400"> <img src ="Images/salesman_list.png" width="220" height="400">     
-<img src ="Images/add_order.png" width="220" height="400">  <img src ="Images/task_list.png" width="220" height="400">
-<img src ="Images/order_summery.png" width="220" height="400">  <img src ="Images/destination.png" width="220" height="400">
----
-
-> _KEEP SMILLING & HAPPY CODING_
-
